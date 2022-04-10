@@ -4,6 +4,7 @@
 	--main-background: #0b0c0f;
 	--main-fonts-color: #fff;
 	--main-decor-color:#00a9e2;
+  --main-back-color:#9400D3;
     --main-header-background:#21252e;
 	--main-font-family: 'Poppins', sans-serif;
 }
@@ -93,7 +94,7 @@ a.nav-link{
 }
 
 #home .filter{
-	background: url('https://images.unsplash.com/photo-1544099858-75feeb57f01b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') no-repeat;
+	background: url("anon.jpg") no-repeat;
 	background-size: cover;
 	background-position:center;
     position: absolute;
@@ -151,12 +152,12 @@ a.nav-link{
 }
 
 .social-media a i{
-	cursor: pointer;
+	cursor: cell;
 }
 
 .social-media  a:hover {
 	color: var(--main-decor-color);
-	text-shadow: 0 0 50px var(--main-decor-color);
+	text-shadow: 0 0 50px var(--main-back-color);
 }
 
 /*──────────────────
@@ -211,21 +212,23 @@ a.nav-link{
 	text-align: center;
 	padding: 10px 5px;
 	font-size: 1rem;
-	color: var(--main-fonts-color);
+	color: var(--main-back-color);
 	font-family: var(--main-font-family);
-	cursor: pointer;
+	cursor: cell;
 }
 
 .card a{
 	text-decoration: none;
+  cursor:cell;
 }
 
 .card .work-content:hover{
-    color:#202020;
+    color:#021203;
+  cursor:cell;
 }
 
 .card:hover{
-	box-shadow: 0 0 1.5rem gray;
+	box-shadow: 0 0 1.5rem red;
 }
 
 /*──────────────────
